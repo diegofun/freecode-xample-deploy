@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/free-code-camp/static/css/main.c5bfb802.css",
-    "main.js": "/free-code-camp/static/js/main.8b8cdacb.js",
-    "static/media/home.jpg": "/free-code-camp/static/media/home.bbe8cb161ca74ee7c24f.jpg",
-    "static/media/login.jpg": "/free-code-camp/static/media/login.78bcf4e65400d1704233.jpg",
-    "static/media/splash.jpg": "/free-code-camp/static/media/splash.4bcda8ab7340a6ceeb6e.jpg",
-    "static/media/malecon.jpg": "/free-code-camp/static/media/malecon.bf344c6dd33ae49c9ad0.jpg",
-    "static/media/orders_icon.png": "/free-code-camp/static/media/orders_icon.155065c2fecc9c6ec882.png",
-    "index.html": "/free-code-camp/index.html",
-    "main.c5bfb802.css.map": "/free-code-camp/static/css/main.c5bfb802.css.map",
-    "main.8b8cdacb.js.map": "/free-code-camp/static/js/main.8b8cdacb.js.map"
+    "main.css": "/freecode-xample-deploy/static/css/main.c5bfb802.css",
+    "main.js": "/freecode-xample-deploy/static/js/main.ca8bce33.js",
+    "static/media/home.jpg": "/freecode-xample-deploy/static/media/home.bbe8cb161ca74ee7c24f.jpg",
+    "static/media/login.jpg": "/freecode-xample-deploy/static/media/login.78bcf4e65400d1704233.jpg",
+    "static/media/splash.jpg": "/freecode-xample-deploy/static/media/splash.4bcda8ab7340a6ceeb6e.jpg",
+    "static/media/malecon.jpg": "/freecode-xample-deploy/static/media/malecon.bf344c6dd33ae49c9ad0.jpg",
+    "static/media/orders_icon.png": "/freecode-xample-deploy/static/media/orders_icon.155065c2fecc9c6ec882.png",
+    "index.html": "/freecode-xample-deploy/index.html",
+    "main.c5bfb802.css.map": "/freecode-xample-deploy/static/css/main.c5bfb802.css.map",
+    "main.ca8bce33.js.map": "/freecode-xample-deploy/static/js/main.ca8bce33.js.map"
   },
   "entrypoints": [
     "static/css/main.c5bfb802.css",
-    "static/js/main.8b8cdacb.js"
+    "static/js/main.ca8bce33.js"
   ]
 }
