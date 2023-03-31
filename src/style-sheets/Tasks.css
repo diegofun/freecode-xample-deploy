@@ -1,0 +1,26 @@
+h1 {
+    color: #1b1b32;
+    font-size: 25px;
+    font-family: Lato, sans-serif;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.contenedor-tasks {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myTasks {
+    width: 600px;
+    min-height: 500px;
+    background-color: #d0d0d5;
+    padding: 25px;
+    margin: 10px;
+    justify-content: center;
+    border-radius: 26px;
+}
+
