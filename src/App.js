@@ -1,23 +1,36 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './components/Home';
+import ordersLogo from './images/orders_icon.png';
+import { useState } from 'react';
 
 function App() {
+
+  const [screen, setScreen] = useState('testimony');
+
+  const logoClick = () => {
+    if (screen == 'testimony')
+      setScreen('counter');
+    else if (screen == 'counter')
+      setScreen('calc');
+    else if (screen == 'calc')
+      setScreen('tasks');
+    else
+      setScreen('testimony');
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <div className='logo-contenedor'>
+        <img
+          className='logo'
+          src={ordersLogo}
+          alt='logo counter'
+          onClick={logoClick}
+        />
+      </div>
+      <div>
+        <Home screen={screen}/>
+      </div>
     </div>
   );
 }
